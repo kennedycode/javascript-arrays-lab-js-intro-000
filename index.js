@@ -4,6 +4,10 @@ function destructivelyAppendKitten(name) {
   kittens.push(name)
 }
 
+function destructivelyPrependKitten(name) {
+  kittens.shift(name)
+}
+
 
 
 // Add your functions and code here
