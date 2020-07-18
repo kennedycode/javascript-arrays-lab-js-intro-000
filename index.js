@@ -12,6 +12,10 @@ function destructivelyRemoveFirstKitten(name) {
   kittens.shift(name)
 }
 
+function destructivelyRemoveLastKitten(name) {
+  kittens.pop(name)
+}
+
 
 
 // Add your functions and code here
