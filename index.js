@@ -8,6 +8,10 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
 }
 
+function destructivelyRemoveFirstKitten(name) {
+  kittens.shift(name)
+}
+
 
 
 // Add your functions and code here
